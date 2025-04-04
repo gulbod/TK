@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Name="Task1TextBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBox Name="Task2TextBox" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBox Name="Task3TextBox" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBox Name="Task4TextBox" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="200" Click="CalculateButton_Click"/>
+        <TextBlock Name="ResultTextBlock" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="200" Height="100"/>
+        <Button Content="Рассчитать" Click="CalculateButton_Click" Padding="10,5"
+         Background="Pink" Foreground="Black" FontWeight="Bold"/>
+    </Grid>
+</Window>
